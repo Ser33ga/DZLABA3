@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mxfile host="app.diagrams.net" modified="2026-11-06T08:00:00.000Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.17" type="device">
+  <diagram id="flowchart" name="Страница-1">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="start" value="Начало" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;strokeColor=#000000;strokeWidth=1.5;fillColor=#ffffff;fontFamily=Arial;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="255" y="40" width="90" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="input" value="Ввести price" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=20;strokeColor=#000000;strokeWidth=1.5;fillColor=#ffffff;fontFamily=Arial;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="230" y="130" width="140" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="save" value="original_price = price" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1.5;fillColor=#ffffff;fontFamily=Arial;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="210" y="220" width="180" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="calc_a" value="price = price + 12.50" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1.5;fillColor=#ffffff;fontFamily=Arial;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="215" y="310" width="170" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="out_a" value="Вывести price" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=20;strokeColor=#000000;strokeWidth=1.5;fillColor=#ffffff;fontFamily=Arial;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="225" y="400" width="150" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="restore" value="price = original_price" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1.5;fillColor=#ffffff;fontFamily=Arial;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="210" y="490" width="180" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="calc_b" value="price = price * 1.25" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1.5;fillColor=#ffffff;fontFamily=Arial;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="220" y="580" width="160" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="out_b" value="Вывести price" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=20;strokeColor=#000000;strokeWidth=1.5;fillColor=#ffffff;fontFamily=Arial;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="225" y="670" width="150" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="end" value="Конец" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;strokeColor=#000000;strokeWidth=1.5;fillColor=#ffffff;fontFamily=Arial;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="255" y="760" width="90" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_start_input_0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;strokeWidth=1.5;endArrow=classic;endFill=1;fontFamily=Arial;fontSize=12;fontColor=#000000;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="start" target="input">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_input_save_1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;strokeWidth=1.5;endArrow=classic;endFill=1;fontFamily=Arial;fontSize=12;fontColor=#000000;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="input" target="save">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_save_calc_a_2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;strokeWidth=1.5;endArrow=classic;endFill=1;fontFamily=Arial;fontSize=12;fontColor=#000000;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="save" target="calc_a">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_calc_a_out_a_3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;strokeWidth=1.5;endArrow=classic;endFill=1;fontFamily=Arial;fontSize=12;fontColor=#000000;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="calc_a" target="out_a">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_out_a_restore_4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;strokeWidth=1.5;endArrow=classic;endFill=1;fontFamily=Arial;fontSize=12;fontColor=#000000;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="out_a" target="restore">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_restore_calc_b_5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;strokeWidth=1.5;endArrow=classic;endFill=1;fontFamily=Arial;fontSize=12;fontColor=#000000;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="restore" target="calc_b">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_calc_b_out_b_6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;strokeWidth=1.5;endArrow=classic;endFill=1;fontFamily=Arial;fontSize=12;fontColor=#000000;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="calc_b" target="out_b">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_out_b_end_7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;strokeWidth=1.5;endArrow=classic;endFill=1;fontFamily=Arial;fontSize=12;fontColor=#000000;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="out_b" target="end">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

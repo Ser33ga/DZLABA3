@@ -27,6 +27,8 @@
 
 ![Блок-схема](lab_3_schema.svg)
 
+*Исходник схемы для draw.io: [lab_3_schema.drawio](lab_3_schema.drawio)*
+
 ---
 
 ## 2. Реализация программы
